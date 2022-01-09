@@ -1,0 +1,13 @@
+.container{
+  margin:3% 3%;
+  padding:2%;
+  background : yellow;
+  text-align:center;
+  color:red;
+  border:1px gray solid;
+}
+.button{
+  margin:1%;
+  padding:2%;
+  background: #eee;
+}
