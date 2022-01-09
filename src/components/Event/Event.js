@@ -19,7 +19,7 @@ class Event extends Component {
     return <div className="container">
     {count}
     <button className="button" type="button" onClick={this.handleClick.bind(this,4)}>
-                                                      //{()=> this.handleClick()}
+                                                      //{()=> this.handleClick(parameters)}
 
     Event Handeller
     </button>
