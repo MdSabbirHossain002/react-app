@@ -5,10 +5,9 @@ class Clock extends Component {
   constructor(props){
     super(props);
     this.state ={
-      hour : new Date().getHours(),
+      hour : new Date().getHours,
       min : new Date().getMinutes(),
-      sec : new Date().getSeconds(),
-      
+      sec : new Date().getSeconds()
     }
   }
   //state:{name:x,age:30} //if props not used in state
@@ -22,16 +21,15 @@ class Clock extends Component {
     this.setState({
         hour : new Date().getHours(),
         min : new Date().getMinutes(),
-        sec : new Date().getSeconds(),
-
+        sec : new Date().getSeconds()
       })
   }
   render(){
 
-    return <div className="container">
+    return (<div className="container">
+      <h3>clock</h3>
       now time is: {this.state.hour}:{this.state.min}:{this.state.sec}
-
-    </div>
+    </div>)
   }
 }
 export default Clock ;

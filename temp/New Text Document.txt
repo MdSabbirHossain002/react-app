@@ -1,3 +1,0 @@
-//{Data.map((item, index)=> <Card key={index} title={item.title} />)}
-    //<Book name="one" />
-    //<State />
